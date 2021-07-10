@@ -4,7 +4,7 @@
 #include <iterator>
 #include <map>
 #include <string>
-#include "aseju.h"
+#include "automata.h"
 
 
 
