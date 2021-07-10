@@ -1,5 +1,5 @@
-#ifndef ASEJU_H
-#define ASEJU_H
+#ifndef AUTOMATA_H
+#define AUTOMATA_H
  
 #include<string>
 
