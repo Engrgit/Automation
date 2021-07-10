@@ -8,26 +8,30 @@
 
 
 
-    Candidate::Candidate(std::string a, std::string b) {
+    Candidate::Candidate(std::string a, std::string b) 
+    {
 
         name = a;
         year = b;
         std::cout << "Hello " << name << ". Welcome to the Job application process for the year " << year << std::endl;
     }
 
-    void Candidate::DisplayGrade(int grade) {
+    void Candidate::DisplayGrade(int grade)
+    {
 
         std::cout << "This will show how you performed in our test " << std::endl;
         std::cout << "Hello " << name << ". You got "<< grade << "% in this "<< year << " assesment"<< std::endl;
     }
 
-    void Candidate::autoMails(std::string emaillist[], int batchsize){
+    void Candidate::autoMails(std::string emaillist[], int batchsize)
+    {
         
         // go into the list, then send an automated message using the person's details. 
 
     }
 
-    void Candidate::displayText(){
+    void Candidate::displayText()
+    {
     
         std::cout << "Hello " << std::setw(2) << name << ".  This is to inform you that you have been shortlisted for this job application. Congratulations once again" << std::endl;
     
